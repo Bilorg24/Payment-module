@@ -72,7 +72,7 @@ if ($result->num_rows > 0) {
     echo "<p class='no-additional-info'>Дополнительная информация не найдена</p>";
   }
 
-  echo "</div>"; // закрытие div с классом info
+  echo "</div>"; 
 } else {
   echo "<p class='not-found'>Квартира не найдена</p>";
 }

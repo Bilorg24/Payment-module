@@ -71,13 +71,3 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['username']) && isset($
 </body>
 </html>
 
-<!-- <body>
-    <h2>Вход</h2>
-    <form action="login.php" method="post">
-        <input type="text" name="username" placeholder="Имя пользователя" required>
-        <input type="password" name="password" placeholder="Пароль" required>
-        <button type="submit">Войти</button>
-    </form>
-    <p>Еще не зарегистрированы? <a href="signup.php">Зарегистрироваться</a></p>
-    <a href="/profile.php">Перейти в кабинет</a>
-</body> -->
